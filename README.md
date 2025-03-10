@@ -91,36 +91,36 @@ The script records autofocus behavior in `focus_history.csv`, storing:
 - Multiple slices are taken **above and below the focal plane** to create a Z-stack.
 - Images are saved in **separate folders** for each droplet.
 
-## **MATLAB Scripts for Image Analysis**
+# **MATLAB Scripts for Image Analysis**
 
 The repository also includes MATLAB scripts for bacterial image processing:
 
-#### `extract_clusters_dual_model_date_from_txt_files.m`
+## `extract_clusters_dual_model_date_from_txt_files.m`
 
 - Extracts and processes bacterial cluster information from detection files.
 - Identifies **in-plane and out-of-plane cells** and corrects for motion.
 - Saves the results as a video and an Excel file for further analysis.
 
-#### `extract_clusters_from_text_files.m`
+## `extract_clusters_from_text_files.m`
 
 - A streamlined version of the cluster extraction script.
 - Detects bacterial clusters and logs cell counts over time.
 - Saves the processed data to an Excel file.
 
-#### `video_with_graph_1class.m`
+## `video_with_graph_1class.m`
 
 - Processes images and overlays bacterial count graphs in real time.
 - Displays both **timelapse images** and **corresponding cell count plots**.
 - Saves the output as a video.
 
-#### `video_with_graph_2class.m`
+## `video_with_graph_2class.m`
 
 - Similar to `video_with_graph_1class.m`, but distinguishes between **two bacterial classes** (e.g., **Pseudomonas** and **Staphylococcus**).
 - Saves annotated videos with bacterial count graphs.
 
-## Troubleshooting
+# Troubleshooting
 
-### **Common Issues & Solutions**
+## **Common Issues & Solutions**
 
 | Issue                      | Possible Cause               | Solution                            |
 | -------------------------- | ---------------------------- | ----------------------------------- |
@@ -128,15 +128,15 @@ The repository also includes MATLAB scripts for bacterial image processing:
 | Focus not adjusting        | YOLO model misclassification | Train or fine-tune the model        |
 | Incorrect drift correction | Hough Transform failure      | Adjust circle detection parameters  |
 
-## Acknowledgments
+# Acknowledgments
 
 This project is based on **TIS Imaging Control Samples** and deep-learning-based autofocus methods.
 
-## License
+# License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Contact
+# Contact
 
 For any issues, reach out to [**f.gielen@exeter.ac.uk**](mailto\:f.gielen@exeter.ac.uk) or open a GitHub issue.
 
