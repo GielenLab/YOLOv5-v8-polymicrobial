@@ -140,5 +140,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 
-For any issues, reach out to [**your-email@example.com**](mailto\:your-email@example.com) or open a GitHub issue.
+For any issues, reach out to [**f,gielen@exeter.ac.uk**](mailto\:your-email@example.com) or open a GitHub issue.
 
